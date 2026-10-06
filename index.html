@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AZIM | Cloud Professional Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body class="dark-mode">
+
+    <header id="navbar">
+        <nav class="container">
+            <h1 class="logo">MohammedAzim<span>.portfolio</span></h1> 
+            <ul class="nav-links">
+                <li><a href="#journey" data-text="01. Journey">Journey</a></li>
+                <li><a href="#skills" data-text="02. Skills">Skills</a></li>
+                <li><a href="#projects" data-text="03. Projects">Projects</a></li>
+                <li><a href="#contact" data-text="04. Contact">Contact</a></li>
+                <li><button id="theme-toggle" aria-label="Toggle theme">🌙</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="container">
+            <div id="hero-parallax-layer"></div>
+            
+            <div class="hero-content">
+                <p class="greeting">Hi, my name is</p>
+                <h1 class="main-title">Mohammed Azim.</h1>
+                <h2 class="sub-title">CSE Student & Cloud Enthusiast .</h2>
+                <p class="description">
+                    I am a Second-Year Computer Science student at St. Joseph's College of Engineering !!!, bridging the gap between software principles and cloud innovation. 
+                    <br><br>
+                    Driven by a "build-first" mindset, I specializing in Software Engineering and Cloud Computing. My passion lies in architecting scalable solutions—turning abstract concepts into deployed, resilient infrastructure as a hobby and a career pursuit.
+                </p>
+                <div class="cta-group">
+                    <a href="#projects" class="btn primary-btn pulse-anim magnetic-btn">Explore My Work</a>
+                    <a href="https://www.linkedin.com/in/mohammed-azim-j-029477383/" target="_blank" class="btn secondary-btn magnetic-btn">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper shadow-lift">
+                    <img src="assets/images/profile-placeholder.jpg" alt="Tom Cruise - Cloud Professional">
+                </div>
+            </div>
+        </section>
+
+        <section id="journey" class="container reveal">
+            <h2>01. My Cloud Journey & Roadmap</h2>
+            <div class="timeline" id="timeline-container">
+                <div class="timeline-item">
+                    <div class="timeline-dot"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="timeline-content card hover-3d">
+                        <h3>Primary & Secondary Education (2010 - 2024)</h3>
+                        <p class="institution">Boaz Public School</p>
+                        <p class="detail">Built a strong academic foundation with an early interest in technology. Explored fundamentals of **Database Management Systems (DBMS) and MySQL**, setting the stage for a career in engineering.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"><i class="fas fa-university"></i></div>
+                    <div class="timeline-content card hover-3d">
+                        <h3>B.E. Computer Science & Engineering (2024 - Present)</h3>
+                        <p class="institution">St. Joseph's College of Engineering</p>
+                        <p class="detail">Currently pursuing my Bachelor's degree (Grade: 8.65 CGPA). Deepening my knowledge in **C Programming, HTML, and Core Engineering subjects** while actively applying these skills to cloud-based personal projects.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"><i class="fas fa-briefcase"></i></div>
+                    <div class="timeline-content card hover-3d">
+                        <h3>Web Development Intern (June 2025)</h3>
+                        <p class="institution">CodeBind Technologies, Chennai</p>
+                        <p class="detail">Successfully developed a full-stack **"Business Management System"** using **HTML, CSS, JavaScript, PHP, and MySQL**. Recognized for high self-motivation and delivering project requirements within strict deadlines.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot current"><i class="fas fa-rocket"></i></div>
+                    <div class="timeline-content card hover-3d">
+                        <h3>Software Development Intern (Dec 2025)</h3>
+                        <p class="institution">IqMath Technologies</p>
+                        <p class="detail">Collaborated with a development team to architect and build custom software solutions for the company. Gained hands-on experience in the **Software Development Life Cycle (SDLC)**, version control, and agile team workflows.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="container reveal">
+            <h2>02. Technical Blueprint</h2>
+            <div class="skills-grid">
+                <div class="skill-category card hover-3d">
+                    <h3><i class="fas fa-server icon-accent"></i> AWS & Cloud</h3>
+                    <ul class="skill-list">
+                        <li data-level="90">AWS Certified Cloud Practitioner - Certification in Progress </li>
+                        <li data-level="85">S3, CloudFront</li>
+                        <li data-level="75">VPC, EC2, Auto Scaling</li>
+                        <li data-level="80">IAM, Security Groups</li>
+                        <li data-level="65">Lambda, DynamoDB, RDS</li>
+                    </ul>
+                </div>
+                <div class="skill-category card hover-3d">
+                    <h3><i class="fas fa-code icon-accent"></i> Programming & Core CS</h3>
+                    <ul class="skill-list">
+                        <li data-level="95">Java & C (intermidate)</li>
+                        <li data-level="70">Python</li>
+                        <li data-level="60">Docker / Kubernetes (EKS)</li>
+                        <li data-level="85">Git, GitHub, CI/CD Pipelines</li>
+                        <li data-level="80">Shell Scripting (Bash)</li>
+                    </ul>
+                </div>
+                <div class="skill-category card hover-3d">
+                    <h3><i class="fas fa-laptop-code icon-accent"></i> Front-End & Tools</h3>
+                    <ul class="skill-list">
+                        <li data-level="70">HTML5, CSS3, JavaScript</li>
+                        <li data-level="90">Responsive Design (Media Queries)</li>
+                        <li data-level="85">VS Code, Linux Terminal</li>
+                        <li data-level="95">Networking Fundamentals</li>
+                        <li data-level="60">CI/CD Tooling (GitHub Actions)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="container reveal">
+            <h2>03. Flagship Projects</h2>
+            <div class="projects-list">
+                <div class="project-card card hover-3d">
+                    <div class="project-info">
+                        <p class="project-overline">Cloud Deployment Showcase</p>
+                        <h3 class="project-title">Hyperscale Static Portfolio</h3>
+                        <div class="project-description">
+                            <p>This very portfolio site. Deployed globally with near-zero latency using **AWS S3 for hosting and CloudFront CDN**. Infrastructure is managed via an automated deployment process.</p>
+                        </div>
+                        <ul class="project-tech-list">
+                            <li>AWS S3</li>
+                            <li>CloudFront</li>
+                            <li>IAM</li>
+                            <li>HTML/CSS/JS</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://github.com/NovaCoderAzim" target="_blank" aria-label="GitHub Repo"><i class="fab fa-github"></i></a>
+                            <a href="#" aria-label="View Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-image">
+                        <img src="assets/images/project-cdn-placeholder.png" alt="Project 1: CDN deployment">
+                    </div>
+                </div>
+                
+                <div class="project-card reverse-layout card hover-3d">
+                    <div class="project-info">
+                        <p class="project-overline">Full Stack LMS Platform</p>
+                        <h3 class="project-title">iQmath - Learning Management System</h3>
+                        <div class="project-description">
+                            <p>Developed a comprehensive LMS featuring role-based access for Students & Admins. Integrated <strong>Firebase Phone Auth.</p>
+                        </div>
+                        <ul class="project-tech-list">
+                            <li>React & TypeScript</li>
+                            <li>Python (FastAPI)</li>
+                            <li>Firebase Auth</li>
+                            <li>Google Drive API</li>
+                            <li>PostgreSQL</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://github.com/NovaCoderAzim" target="_blank" aria-label="GitHub Repo"><i class="fab fa-github"></i></a>
+                            <a href="#" aria-label="View Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-image">
+                        <img src="assets/images/project-eks-placeholder.png" alt="Project 2: EKS Cluster">
+                    </div>
+                </div>
+
+                <div class="project-card card hover-3d">
+                    <div class="project-info">
+                        <p class="project-overline">Smart Fishing Route Optimization</p>
+                        <h3 class="project-title">Smart marine navigation for professional fishermen.</h3>
+                        <div class="project-description">
+                            <p2> A real-time fishing route optimizer that analyzes weather data (waves, wind, visibility) to map out the safest and most efficient fishing zones using the StormGlass and OpenWeatherMap APIs.</p2>
+                        </div>
+                        <ul class="project-tech-list">
+                            <li>HTML, React & tailwincss</li>
+                            <li>Python (FastAPI)</li>
+                            <li>STORMGLASS API & OPENWEATHERMAP API</li>
+                            <li>MySQL</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://github.com/NovaCoderAzim" target="_blank" aria-label="GitHub Repo"><i class="fab fa-github"></i></a>
+                            <a href="#" aria-label="View Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-image">
+                        <img src="assets/images/project-ai-placeholder.png" alt="Project 3: AI/Serverless Solution">
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        
+        <section id="certifications" class="container reveal">
+            <h2>04. Certifications & Expertise</h2>
+            <p class="section-description">Formal validation of core cloud expertise and advanced technical proficiency. Single-click to select, double-click or use the modal button to view details.</p>
+            
+            <div class="cert-carousel-wrapper">
+                <button id="cert-prev-btn" class="carousel-btn"><i class="fas fa-chevron-left"></i></button>
+                <div class="cert-carousel-track">
+                    <a href="assets/images/Screenshot 2025-12-26 130716.png" class="cert-card-link cert-card-1" data-cert-name="AWS Solutions Architect">
+                        <div class="cert-card card hover-3d" data-cert-id="1">
+                            <img src="assets/images/Screenshot 2025-12-26 130716.png" alt="AWS Solutions Architect Certification">
+                            <div class="cert-title-overlay">AGENTIC Hack</div>
+                        </div>
+                    </a>
+                    <a href="assets/images/Screenshot 2025-12-26 142907.png" class="cert-card-link cert-card-2" data-cert-name="Certified Kubernetes Developer">
+                        <div class="cert-card card hover-3d" data-cert-id="2">
+                            <img src="assets/images/Screenshot 2025-12-26 142907.png" alt="Kubernetes Certification">
+                            <div class="cert-title-overlay">HTML5</div>
+                        </div>
+                    </a>
+                    <a href="assets/images/Screenshot 2025-12-26 130738.png" class="cert-card-link cert-card-3" data-cert-name="Advanced DevOps Professional">
+                        <div class="cert-card card hover-3d" data-cert-id="3">
+                            <img src="assets/images/Screenshot 2025-12-26 130738.png" alt="DevOps Professional Certification">
+                            <div class="cert-title-overlay">CISCO</div>
+                        </div>
+                    </a>
+                    <a href="assets/images/Screenshot 2025-12-26 130812.png" class="cert-card-link cert-card-4" data-cert-name="Azure Fundamentals">
+                        <div class="cert-card card hover-3d" data-cert-id="4">
+                            <img src="assets/images/Screenshot 2025-12-26 130812.png" alt="Azure Fundamentals Certification">
+                            <div class="cert-title-overlay">AWS</div>
+                        </div>
+                    </a>
+                    <a href="assets/images/Screenshot 2025-12-26 130755.png" class="cert-card-link cert-card-5" data-cert-name="Cloud Practitioner">
+                        <div class="cert-card card hover-3d" data-cert-id="5">
+                            <img src="assets/images/Screenshot 2025-12-26 130755.png" alt="Cloud Practitioner">
+                            <div class="cert-title-overlay">AWS</div>
+                        </div>
+                    </a>
+                    <a href="assets/images/Screenshot 2025-12-26 143116.png" class="cert-card-link cert-card-6" data-cert-name="Terraform Associate">
+                        <div class="cert-card card hover-3d" data-cert-id="6">
+                            <img src="assets/images/Screenshot 2025-12-26 143116.png" alt="Terraform Associate">
+                            <div class="cert-title-overlay">NPTEL</div>
+                        </div>
+                    </a>
+                    <a href="assets/images/Screenshot 2025-12-26 142950.png" class="cert-card-link cert-card-7" data-cert-name="Security Specialty">
+                        <div class="cert-card card hover-3d" data-cert-id="7">
+                            <img src="assets/images/Screenshot 2025-12-26 142950.png" alt="Security Specialty">
+                            <div class="cert-title-overlay">IBM</div>
+                        </div>
+                    </a>
+                    <a href="assets/images/Screenshot 2025-12-26 142928.png" class="cert-card-link cert-card-8" data-cert-name="Network Specialty">
+                        <div class="cert-card card hover-3d" data-cert-id="8">
+                            <img src="assets/images/Screenshot 2025-12-26 142928.png" alt="Network Specialty">
+                            <div class="cert-title-overlay">WEB FOUNDATIONS</div>
+                        </div>
+                    </a>
+                    <a href="assets/images/Screenshot 2025-12-26 144153.png" class="cert-card-link cert-card-9" data-cert-name="Data Analytics">
+                        <div class="cert-card card hover-3d" data-cert-id="9">
+                            <img src="assets/images/Screenshot 2025-12-26 144153.png" alt="Data Analytics">
+                            <div class="cert-title-overlay">OOPS</div>
+                        </div>
+                    </a>
+                    <a href="assets/images/Screenshot 2025-12-26 144208.png" class="cert-card-link cert-card-10" data-cert-name="Machine Learning">
+                        <div class="cert-card card hover-3d" data-cert-id="10">
+                            <img src="assets/images/Screenshot 2025-12-26 144208.png" alt="Machine Learning">
+                            <div class="cert-title-overlay">DSA</div>
+                        </div>
+                    </a>
+                </div>
+                <button id="cert-next-btn" class="carousel-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+
+            <button id="view-cert-details-btn" class="btn primary-btn large-btn" style="margin-top: 50px; display: none;">
+                View Selected Certificate Details
+            </button>
+        </section>
+
+
+        <section id="badges" class="container reveal">
+            <h2>05. Technical Badges</h2>
+            <p class="section-description">Micro-credentials earned through hands-on challenge completion and deep domain training. Click to expand.</p>
+
+
+
+            <div class="badge-grid">
+                <div class="badge-item magnetic-badge" data-badge-url="assets/images/skillbuilder.png" data-badge-name="AWS Cloud Skills">
+                    <img src="assets/images/skillbuilder.png" alt="AWS Cloud Skills Badge">
+                    <p>AWS skillbuilder</p>
+                </div>
+                <div class="badge-item magnetic-badge" data-badge-url="assets/images/aws-educate-getting-started-with-compute-training-b.png" data-badge-name="Terraform Automation">
+                    <img src="assets/images/aws-educate-getting-started-with-compute-training-b.png" alt="Terraform Automation Badge">
+                    <p>aws-educate</p>
+                </div>
+                <div class="badge-item magnetic-badge" data-badge-url="assets/images/aws-educate-getting-started-with-databases-training.png" data-badge-name="Python Development">
+                    <img src="assets/images/aws-educate-getting-started-with-databases-training.png" alt="Python Development Badge">
+                    <p>aws-educate</p>
+                </div>
+                <div class="badge-item magnetic-badge" data-badge-url="assets/images/aws-educate-getting-started-with-networking-trainin.png" data-badge-name="Linux CLI Expert">
+                    <img src="assets/images/aws-educate-getting-started-with-networking-trainin.png" alt="Linux CLI Expert Badge">
+                    <p>aws-educate</p>
+                </div>
+                <div class="badge-item magnetic-badge" data-badge-url="assets/images/aws-educate-getting-started-with-security-training-.png" data-badge-name="Networking Specialist">
+                    <img src="assets/images/aws-educate-getting-started-with-security-training-.png" alt="Networking Specialist Badge">
+                    <p>aws-educate</p>
+                </div>
+                
+                <div class="badge-item magnetic-badge" data-badge-url="assets/images/aws-educate-getting-started-with-serverless-trainin.png" data-badge-name="GitOps Master">
+                    <img src="assets/images/aws-educate-getting-started-with-serverless-trainin.png" alt="GitOps Master Badge">
+                    <p>aws-educate</p>
+                </div>
+                <div class="badge-item magnetic-badge" data-badge-url="assets/images/aws-educate-getting-started-with-storage-training-b.png" data-badge-name="Serverless Architect">
+                    <img src="assets/images/aws-educate-getting-started-with-storage-training-b.png" alt="Serverless Architect Badge">
+                    <p>aws-educate</p>
+                </div>
+                <div class="badge-item magnetic-badge" data-badge-url="assets/images/aws-educate-introduction-to-cloud-101-training-badg.png" data-badge-name="Cloud Security">
+                    <img src="assets/images/aws-educate-introduction-to-cloud-101-training-badg.png" alt="Cloud Security Badge">
+                    <p>aws-educate</p>
+                </div>
+                <div class="badge-item magnetic-badge" data-badge-url="assets/images/aws-educate-getting-started-with-cloud-ops-training.png" data-badge-name="Monitoring Pro">
+                    <img src="assets/images/aws-educate-getting-started-with-cloud-ops-training.png" alt="Monitoring Pro Badge">
+                    <p>aws-educate</p>
+                </div>
+                <div class="badge-item magnetic-badge" data-badge-url="assets/images/aws-academy-graduate-generative-ai-foundations.png" data-badge-name="Containers & Orchestration">
+                    <img src="assets/images/aws-academy-graduate-generative-ai-foundations.png" alt="Containers & Orchestration Badge">
+                    <p>aws-educate</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact" class="container reveal">
+            <h2>06. Contact & Collaboration</h2>
+            <h3 class="contact-title">Let's Connect and Build the Future.</h3>
+            <p class="contact-description">
+                I am actively seeking collaboration on ambitious cloud and infrastructure projects. Feel free to reach out via email or connect with me on LinkedIn to discuss your requirements.
+            </p>
+            <a href="https://www.linkedin.com/in/mohammed-azim-j-029477383/" target="_blank" class="btn primary-btn large-btn contact-btn magnetic-btn">Send the Signal</a>
+            
+            <div class="contact-links-professional">
+                <a href="https://github.com/NovaCoderAzim" target="_blank" aria-label="GitHub" class="contact-link-item magnetic-btn"><i class="fab fa-github"></i> <span>GitHub Profile</span></a>
+                <a href="https://www.linkedin.com/in/mohammed-azim-j-029477383/" target="_blank" aria-label="LinkedIn" class="contact-link-item magnetic-btn"><i class="fab fa-linkedin-in"></i> <span>Connect on LinkedIn</span></a>
+                <a href="mailto:youremail@example.com" aria-label="Email" class="contact-link-item magnetic-btn"><i class="fas fa-envelope"></i> <span>Email Me Directly</span></a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://github.com/NovaCoderAzim" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/mohammed-azim-j-029477383/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p class="footer-text">
+                <i class="fas fa-code-branch"></i> Code maintained on <a href="https://github.com/NovaCoderAzim" target="_blank">GitHub</a>.
+            </p>
+            <p class="aws-badge">
+                <i class="fas fa-cloud"></i> Deployed on AWS S3 & CloudFront for **Global Low-Latency Access**
+            </p>
+            <p class="copyright-text">
+                © 2025 Tom Cruise. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+
+    <button id="scroll-to-top" class="btn" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    
+    <div id="certModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <img id="modalCertImage" src="" alt="Certification Image">
+            <p id="modalCertTitle"></p>
+        </div>
+    </div>
+    
+    <div id="badgeModal" class="modal">
+        <div class="modal-content badge-modal-content">
+            <span class="close-btn badge-close-btn">&times;</span>
+            <img id="modalBadgeImage" src="" alt="Badge Image">
+            <p id="modalBadgeTitle"></p>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
